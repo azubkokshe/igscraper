@@ -1,0 +1,19 @@
+{
+  "name": "igscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zub Alexandr",
+  "license": "MIT",
+  "devDependencies": {
+    "instagram-scraping": "^1.0.13",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "pdf-creator-node": "^1.4.1",
+    "request": "latest"
+  }
+}

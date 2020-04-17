@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+.page {
+     max-width: 100%;
+ 	 height: auto;
+}
+
+.break-after {
+	page-break-after: always;
+}	
+
+</style>
+
+<head>
+	<mate charest="utf-8" />
+	<title>Заголовок</title>
+</head>
+<body>
+
+<div class="break-after">{{caption}}</div>
+
+{{#each users}}
+	<div class="{{this.class}}"><img class="page" src="{{this.url}}"></div>
+{{/each}}
+
+</body>
+</html>
