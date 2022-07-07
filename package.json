@@ -11,7 +11,7 @@
   "devDependencies": {
     "instagram-scraping": "^1.0.13",
     "md5": "^2.2.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-fetch": "^2.6.0",
     "pdf-creator-node": "^1.4.1",
     "request": "latest"
